@@ -12,18 +12,13 @@ connectDB();
 const app = express();
 
 // CORS configuration
-
-const cors = require('cors');
-
 const corsOptions = {
-  origin: 'https://fluffy-pixie-a3fae1.netlify.app', // ✅ Allow only your frontend
-  credentials: true, // ✅ Allow sending auth headers like Bearer tokens
+  origin: 'https://fluffy-pixie-a3fae1.netlify.app',
+  credentials: true, // only needed if you're using cookies or auth headers
 };
 
-app.use(cors(corsOptions)); // ✅ Enable CORS with above options
-
-
 // Middleware
+app.use(cors(corsOptions));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
