@@ -12,7 +12,7 @@ const { protect } = require('../middleware/auth');
 
 const router = express.Router();
 
-// Validation rules
+// Validation rules 
 const postValidation = [
   body('content')
     .trim()
