@@ -13,7 +13,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://fluffy-pixie-a3fae1.netlify.app',
+  origin: 'https://minilinked.netlify.app',
   credentials: true, // only needed if you're using cookies or auth headers
 };
 
