@@ -4,7 +4,7 @@ const postSchema = new mongoose.Schema({
   content: {
     type: String,
     required: [true, 'Post content is required'],
-    maxlength: [280, 'Post cannot be more than 280 characters']
+    maxlength: [1500, 'Post cannot be more than 1500 characters']
   },
   author: {
     type: mongoose.Schema.Types.ObjectId,
