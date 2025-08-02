@@ -48,7 +48,7 @@ const CreatePost: React.FC<CreatePostProps> = ({ onPostCreated }) => {
             />
             <div className="flex justify-between items-center mt-3 pt-3 border-t border-gray-100">
               <div className="text-sm text-gray-500">
-                {content.length}/280 characters
+                {content.length}/1500 characters
               </div>
               <button
                 type="submit"
