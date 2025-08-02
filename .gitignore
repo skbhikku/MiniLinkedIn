@@ -1,0 +1,11 @@
+# Ignore node modules in both frontend and backend
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore environment files
+backend/.env
+frontend/.env
+
+# Optional: IDE config files
+.vscode/
+.DS_Store
