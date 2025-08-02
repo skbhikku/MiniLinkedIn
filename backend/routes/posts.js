@@ -16,7 +16,7 @@ const router = express.Router();
 const postValidation = [
   body('content')
     .trim()
-    .isLength({ min: 1, max: 280 })
+    .isLength({ min: 1, max: 1500 })
     .withMessage('Post content must be between 1 and 280 characters')
 ];
 
