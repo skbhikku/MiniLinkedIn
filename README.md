@@ -2,6 +2,7 @@
 
 This is a mini LinkedIn-style community platform built as part of the Full Stack Development Internship challenge by **CIAAN Cyber Tech Pvt Ltd**.
 
+Live Project: https://minilinked.netlify.app
 ---
 
 ## 📌 Project Overview
