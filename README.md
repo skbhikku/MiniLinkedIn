@@ -52,8 +52,8 @@ The platform allows users to register, log in, create public posts, and view oth
 
 ---
 ## User Login
-**Email**	: ciaan@cybertech.com	
-**Password** : Ciaan@2025
+**Email**	: Sample@gmail.com	
+**Password** : Fresher@2025
 
 ## 🛠️ Setup Instructions
 
